@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | IT Developer</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">
+            <span class="brand-logo">P.</span>
+            PORTFOLIO
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-label="เปิดเมนู">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-7">
+                <p class="subtitle">HELLO, I'M</p>
+
+                <h1>SAHARAT BUACHAN<span>.</span></h1>
+
+                <h2>IT & Data Science Student</h2>
+
+                <p class="hero-description">
+                    สวัสดีครับ ผมเป็นนักศึกษาที่สนใจด้านเทคโนโลยีสารสนเทศ
+                    การพัฒนาเว็บไซต์ การเขียนโปรแกรม และการวิเคราะห์ข้อมูล
+                    พร้อมเรียนรู้เทคโนโลยีใหม่ ๆ อยู่เสมอ
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-dark-custom">
+                        ดูผลงานของฉัน <i class="bi bi-arrow-up-right"></i>
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline-custom">
+                        ติดต่อฉัน
+                    </a>
+                </div>
+
+                <div class="hero-info">
+                    <div>
+                        <small>MY INTEREST</small>
+                        <p>Web Development & Data</p>
+                    </div>
+
+                    <div>
+                        <small>LOCATION</small>
+                        <p>Thailand</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+                <div class="profile-box">
+                    <img src="/unnamed.jpg"
+                         alt="รูปโปรไฟล์"
+                         onerror="this.style.display='none'; document.getElementById('profile-placeholder').style.display='flex';">
+
+                    <div id="profile-placeholder" class="profile-placeholder">
+                        <i class="bi bi-person"></i>
+                        <p>YOUR PHOTO</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <div class="container">
+
+        <div class="section-heading">
+            <span>01</span>
+            <div>
+                <p>GET TO KNOW ME</p>
+                <h2>About Me<span>.</span></h2>
+            </div>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-lg-5">
+                <h3 class="about-title">
+                    เรียนรู้เทคโนโลยี<br>
+                    และพัฒนาตัวเองอยู่เสมอ
+                </h3>
+            </div>
+
+            <div class="col-lg-7">
+                <p class="about-description">
+                    ผมสนใจการสร้างเว็บไซต์และแอปพลิเคชัน
+                    รวมถึงการจัดการฐานข้อมูลและการวิเคราะห์ข้อมูล
+                    โดยนำความรู้จากห้องเรียนมาประยุกต์ใช้กับโปรเจกต์ต่าง ๆ
+                    เพื่อพัฒนาทักษะและประสบการณ์ของตัวเอง
+                </p>
+
+                <div class="personal-info">
+                    <div>
+                        <span>ชื่อ-นามสกุล</span>
+                        <strong>นายสหรัฐ บัวจันทร์</strong>
+                    </div>
+
+                    <div>
+                        <span>รหัสนิสิต</span>
+                        <strong>67310125</strong>
+                    </div>
+
+                    <div>
+                        <span>สาขาวิชา</span>
+                        <strong>เทคโนโลยีสารสนเทศและวิทยาการข้อมูล</strong>
+                    </div>
+
+                    <div>
+                        <span>ความสนใจ</span>
+                        <strong>Programming, Web Development, Data Science</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section section-gray">
+    <div class="container">
+
+        <div class="section-heading">
+            <span>02</span>
+            <div>
+                <p>WHAT I CAN DO</p>
+                <h2>My Skills<span>.</span></h2>
+            </div>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+                <div class="skill-card">
+                    <i class="bi bi-window"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, Bootstrap, React</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="skill-card">
+                    <i class="bi bi-code-slash"></i>
+                    <h3>Programming</h3>
+                    <p>Python, C++, JavaScript</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="skill-card">
+                    <i class="bi bi-database"></i>
+                    <h3>Database</h3>
+                    <p>MySQL, SQL, Database Management</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="skill-card">
+                    <i class="bi bi-graph-up"></i>
+                    <h3>Data Science</h3>
+                    <p>Python, Pandas, Data Analysis</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="skill-card">
+                    <i class="bi bi-git"></i>
+                    <h3>Version Control</h3>
+                    <p>Git, GitHub, VS Code</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="skill-card">
+                    <i class="bi bi-pc-display"></i>
+                    <h3>IT Support</h3>
+                    <p>Computer Hardware, Troubleshooting</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Courses Section -->
+<section id="courses" class="section">
+    <div class="container">
+
+        <div class="section-heading">
+            <span>03</span>
+            <div>
+                <p>MY EDUCATION</p>
+                <h2>Selected Courses<span>.</span></h2>
+            </div>
+        </div>
+
+        <div class="course-list">
+
+            <div class="course-item">
+                <span>01</span>
+                <div>
+                    <h3>Web Programming</h3>
+                    <p>การพัฒนาเว็บไซต์และเว็บแอปพลิเคชัน</p>
+                </div>
+                <i class="bi bi-arrow-up-right"></i>
+            </div>
+
+            <div class="course-item">
+                <span>02</span>
+                <div>
+                    <h3>Data Science for Business</h3>
+                    <p>การวิเคราะห์ข้อมูลและ Machine Learning</p>
+                </div>
+                <i class="bi bi-arrow-up-right"></i>
+            </div>
+
+            <div class="course-item">
+                <span>03</span>
+                <div>
+                    <h3>Service-Oriented Architecture</h3>
+                    <p>การพัฒนาและเชื่อมต่อ REST API</p>
+                </div>
+                <i class="bi bi-arrow-up-right"></i>
+            </div>
+
+            <div class="course-item">
+                <span>04</span>
+                <div>
+                    <h3>Internet Information Services</h3>
+                    <p>การจัดการบริการและระบบเครือข่าย</p>
+                </div>
+                <i class="bi bi-arrow-up-right"></i>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section section-gray">
+    <div class="container">
+
+        <div class="section-heading">
+            <span>04</span>
+            <div>
+                <p>MY RECENT WORK</p>
+                <h2>Featured Projects<span>.</span></h2>
+            </div>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <div class="project-image project-one">
+                        <i class="bi bi-controller"></i>
+                    </div>
+
+                    <p class="project-category">WEB APPLICATION</p>
+                    <h3>Game Search Website</h3>
+
+                    <p class="project-description">
+                        เว็บไซต์ค้นหาข้อมูลเกมโดยใช้ API
+                        เพื่อแสดงรายละเอียดของเกม
+                    </p>
+
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>REST API</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <div class="project-image project-two">
+                        <i class="bi bi-journal-code"></i>
+                    </div>
+
+                    <p class="project-category">FULL STACK</p>
+                    <h3>Book Management System</h3>
+
+                    <p class="project-description">
+                        ระบบจัดการหนังสือที่สามารถเพิ่ม ลบ
+                        แก้ไข และแสดงข้อมูลได้
+                    </p>
+
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Express</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <div class="project-image project-three">
+                        <i class="bi bi-bar-chart-line"></i>
+                    </div>
+
+                    <p class="project-category">API PROJECT</p>
+                    <h3>Exchange Rate Website</h3>
+
+                    <p class="project-description">
+                        เว็บไซต์แสดงข้อมูลอัตราแลกเปลี่ยน
+                        ผ่านการเชื่อมต่อ API
+                    </p>
+
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>API</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="note">
+            หมายเหตุ: ปรับข้อมูลให้ตรงกับผลงานที่ทำจริงก่อนเผยแพร่
+        </p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+
+        <div class="contact-box">
+            <div>
+                <p class="subtitle">LET'S CONNECT</p>
+                <h2>Let's create something<br>great together<span>.</span></h2>
+
+                <p class="contact-description">
+                    ขอบคุณที่เข้ามาชม Portfolio ของผม
+                    สามารถติดตามผลงานและติดต่อผ่านช่องทางด้านล่าง
+                </p>
+
+                <div class="social-links">
+                    <a href="https://github.com/YOUR_USERNAME"
+                       id="github-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+
+                    <a href="https://www.facebook.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a>
+
+                    <a href="https://www.instagram.com/_shrbc?rpxt=ejFuZjZzMHAxYXo0&utm_source=qr"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+
+            <div class="qr-box">
+                <p>MY GITHUB PROFILE</p>
+                <img id="github-qr" alt="QR Code GitHub">
+                <small>Scan to visit my GitHub</small>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container footer-content">
+        <p>© <span id="year"></span> YOUR NAME</p>
+        <p>Designed with care <span>.</span></p>
+        <a href="#home">Back to top ↑</a>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
